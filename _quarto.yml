@@ -33,7 +33,7 @@ website:
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
 format:
   html:
-    theme: [materia, theme.scss]
+    theme: [pulse, theme.scss]
     css: styles.css
     toc: true
     toc-location: right
