@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Course site</title>
+<title>Single-Cell RNA-Seq Analysis with R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -134,11 +134,16 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome!</a></li>
+  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome!</a>
+  <ul class="collapse">
+  <li><a href="#why-r" id="toc-why-r" class="nav-link" data-scroll-target="#why-r">Why R?</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#pre-requisites" id="toc-pre-requisites" class="nav-link" data-scroll-target="#pre-requisites">Pre-requisites</a></li>
   <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -147,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Title of Your Workshop Session</h1>
+<h1 class="title">Single-Cell RNA-Seq Analysis with R</h1>
 </div>
 
 
@@ -165,19 +170,19 @@ ul.task-list li input[type="checkbox"] {
 <table class="table">
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Instructor: <a href="https://hossainlab.github.io/">Md. Jubayer Hossain</a></td>
+<td style="text-align: left;">👨 Instructor: <a href="https://hossainlab.github.io/">Md. Jubayer Hossain</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">🗓 July 16 - July 31, 2023 | 9:00 pm - 11:00pm (Bangladesh Time)</td>
+<td style="text-align: left;">🗓 November 16, 2023 - November 29, 2023 | 9:00 pm - 10:30pm (Bangladesh Time)</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">🏨 Medium - Zoom/Google Meet</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">💥 <strong>Register</strong> with <a href="https://forms.gle/hSH1ACSqDYYVsxie6">Google Forms</a></td>
+<td style="text-align: left;">💥 <strong>Register</strong> with <a href="https://forms.gle/HuoPtWRCPTnFwMht8">Google Forms</a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">💥 <strong>Registration Fee</strong>: 1020 BDT (for students),1530BDT (for professionals)</td>
+<td style="text-align: left;">৳ <strong>Registration Fee</strong>: 1020 BDT (for students),1530BDT (for professionals)</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">📝 To join private Telegram group for the course, follow instructions in the email you received after registration.</td>
@@ -186,66 +191,115 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <section id="welcome" class="level1">
 <h1>Welcome!</h1>
+<p>The “Single-Cell RNA-Seq Analysis with R” course is designed to equip participants with the knowledge and skills required to analyze single-cell RNA sequencing (scRNA-Seq) data using the R programming language. Single-cell RNA-Seq has revolutionized our understanding of cellular heterogeneity and gene expression at the single-cell level. This course will guide participants through the intricacies of scRNA-Seq data analysis, covering preprocessing, clustering, differential expression, trajectory inference, and visualization techniques.</p>
 <ul>
-<li>The goal of the workshop is to … (<em>insert your message</em>)</li>
-<li>For example, introduce kep concepts in machine learning, such as regularisation.</li>
-<li>Workshop material can be found in the workshop <a href="https://github.com">github repository</a>.</li>
+<li>Course material can be found in the workshop <a href="https://github.com/omicscenter/scRNASeqwithR">github repository</a>.</li>
 </ul>
-<section id="learning-objectives" class="level4">
-<h4 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h4>
+<section id="why-r" class="level2">
+<h2 class="anchored" data-anchor-id="why-r">Why R?</h2>
+<ul>
+<li>R is a programming and statistical language.</li>
+<li>R is used for data Analysis and Visualization.</li>
+<li>R is simple and easy to learn, read and write.</li>
+<li>R is an example of a FLOSS (Free Libre and Open Source Software) where one can freely distribute copies of this software, read its source code, modify it, etc.</li>
+</ul>
+</section>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
 <p>At the end of the tutorial, participants will be able to</p>
 <ul>
-<li>understand key concepts for … (<em>insert your message</em>)</li>
-<li>For example, training machine learning models such as regularisation.</li>
-<li>another objective</li>
+<li>Understand Single-Cell RNA-Seq Technology and Experimental Design</li>
+<li>Preprocess Single-Cell Data</li>
+<li>Cluster Single Cells</li>
+<li>Identify Differentially Expressed Genes</li>
+<li>Infer Cell Trajectories and Pseudotime</li>
+<li>Visualize Single-Cell Data</li>
+<li>Integrate Multi-Modal and Multi-Sample Data</li>
+<li>Address Single-Cell Data Challenges</li>
+<li>Build Interactive Data Reports</li>
 </ul>
 </section>
-<section id="pre-requisites" class="level4">
-<h4 class="anchored" data-anchor-id="pre-requisites">Pre-requisites</h4>
+<section id="pre-requisites" class="level2">
+<h2 class="anchored" data-anchor-id="pre-requisites">Pre-requisites</h2>
 <ul>
 <li>Basic familiarity with R</li>
-<li>Some other knowledge</li>
+<li>Basic knowledge of bioinformatics</li>
 </ul>
 </section>
-</section>
-<section id="schedule" class="level1">
-<h1>Schedule</h1>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tabular schedule
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>It can be useful to include a tabular schedule with links.</p>
-</div>
-</div>
+<section id="schedule" class="level2">
+<h2 class="anchored" data-anchor-id="schedule">Schedule</h2>
 <table class="table">
 <thead>
 <tr class="header">
+<th style="text-align: center;">Day</th>
+<th style="text-align: center;">Date</th>
+<th style="text-align: center;">Session Title</th>
 <th style="text-align: center;">Time</th>
-<th style="text-align: center;">Topic</th>
-<th style="text-align: center;">Presenter</th>
+<th style="text-align: center;">Instructor</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;">9:00 - 10:30</td>
-<td style="text-align: center;"><a href="part_1_prep.qmd">Session 1: Preparation</a></td>
-<td style="text-align: center;">Instructor A</td>
+<td style="text-align: center;">Day 1</td>
+<td style="text-align: center;">November 16, 2023</td>
+<td style="text-align: center;">Fundamentals of R: Part 1</td>
+<td style="text-align: center;">9:00 - 10:30 PM</td>
+<td style="text-align: center;"><a href="https://hossainlab.github.io/">Md. Jubayer Hossain</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">10:45 - 12:00</td>
-<td style="text-align: center;"><a href="part_2_eda.qmd">Session 2: Exploratory Analysis</a></td>
-<td style="text-align: center;">Instructor B, C</td>
+<td style="text-align: center;">Day 2</td>
+<td style="text-align: center;">November 18, 2023</td>
+<td style="text-align: center;">Fundamentals of R: Part 2</td>
+<td style="text-align: center;">9:00 - 10:30 PM</td>
+<td style="text-align: center;"><a href="https://hossainlab.github.io/">Md. Jubayer Hossain</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Day 3</td>
+<td style="text-align: center;">November 20, 2023</td>
+<td style="text-align: center;">The Tidyverse Ecosystem: Part 1</td>
+<td style="text-align: center;">9:00 - 10:30 PM</td>
+<td style="text-align: center;"><a href="https://hossainlab.github.io/">Md. Jubayer Hossain</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Day 4</td>
+<td style="text-align: center;">November 22, 2023</td>
+<td style="text-align: center;">The Tidyverse Ecosystem: Part 2</td>
+<td style="text-align: center;">9:00 - 10:30 PM</td>
+<td style="text-align: center;"><a href="https://hossainlab.github.io/">Md. Jubayer Hossain</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Day 5</td>
+<td style="text-align: center;">November 24, 2023</td>
+<td style="text-align: center;">Preparing scRNA-Seq Data</td>
+<td style="text-align: center;">9:00 - 10:30 PM</td>
+<td style="text-align: center;"><a href="https://hossainlab.github.io/">Md. Jubayer Hossain</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Day 6</td>
+<td style="text-align: center;">November 26, 2023</td>
+<td style="text-align: center;">Uncovering Dataset Structure</td>
+<td style="text-align: center;">9:00 - 10:30 PM</td>
+<td style="text-align: center;"><a href="https://hossainlab.github.io/">Md. Jubayer Hossain</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Day 7</td>
+<td style="text-align: center;">November 28, 2023</td>
+<td style="text-align: center;">scRNA-Seq Biological Interpretation</td>
+<td style="text-align: center;">9:00 - 10:30 PM</td>
+<td style="text-align: center;"><a href="https://hossainlab.github.io/">Md. Jubayer Hossain</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Day 8</td>
+<td style="text-align: center;">November 29, 2023</td>
+<td style="text-align: center;">Differential Expression Analysis</td>
+<td style="text-align: center;">9:00 - 10:30 PM</td>
+<td style="text-align: center;"><a href="https://hossainlab.github.io/">Md. Jubayer Hossain</a></td>
 </tr>
 </tbody>
 </table>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -485,7 +539,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© Copyright 2022, Md. Jubayer Hossain</div>   
+    <div class="nav-footer-left">© Copyright 2023, Md. Jubayer Hossain</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>

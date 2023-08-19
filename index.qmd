@@ -1,51 +1,63 @@
 ---
-pagetitle: "Course site"
-title: "Title of Your Workshop Session"
+pagetitle: "Single-Cell RNA-Seq Analysis with R"
+title: "Single-Cell RNA-Seq Analysis with R"
 editor: source
 ---
 
 ------------------------------------------------------------------------
-Instructor: [Md. Jubayer Hossain](https://hossainlab.github.io/)
+👨 Instructor: [Md. Jubayer Hossain](https://hossainlab.github.io/)
 
-🗓 July 16 - July 31, 2023 \| 9:00 pm - 11:00pm (Bangladesh Time)
+🗓 November 16, 2023 - November 29, 2023 \| 9:00 pm - 10:30pm (Bangladesh Time)
 
 🏨 Medium - Zoom/Google Meet
 
-💥 **Register** with [Google Forms](https://forms.gle/hSH1ACSqDYYVsxie6)
+💥 **Register** with [Google Forms](https://forms.gle/HuoPtWRCPTnFwMht8)
 
-💥 **Registration Fee**: 1020 BDT (for students),1530BDT (for professionals)
+৳ **Registration Fee**: 1020 BDT (for students),1530BDT (for professionals)
 
 📝 To join private Telegram group for the course, follow instructions in the email you received after registration.
 ------------------------------------------------------------------------
 
 # Welcome!
+The "Single-Cell RNA-Seq Analysis with R" course is designed to equip participants with the knowledge and skills required to analyze single-cell RNA sequencing (scRNA-Seq) data using the R programming language. Single-cell RNA-Seq has revolutionized our understanding of cellular heterogeneity and gene expression at the single-cell level. This course will guide participants through the intricacies of scRNA-Seq data analysis, covering preprocessing, clustering, differential expression, trajectory inference, and visualization techniques.
 
--   The goal of the workshop is to ... (*insert your message*)
--   For example, introduce kep concepts in machine learning, such as regularisation.
--   Workshop material can be found in the workshop [github repository](https://github.com).
+-   Course material can be found in the workshop [github repository](https://github.com/omicscenter/scRNASeqwithR).
 
-#### Learning Objectives
+## Why R?
+
+-   R is a programming and statistical language.
+-   R is used for data Analysis and Visualization.
+-   R is simple and easy to learn, read and write.
+-   R is an example of a FLOSS (Free Libre and Open Source Software) where one can freely distribute copies of this software, read its source code, modify it, etc.
+
+
+## Learning Objectives
 
 At the end of the tutorial, participants will be able to
 
--   understand key concepts for ... (*insert your message*)
--   For example, training machine learning models such as regularisation.
--   another objective
+-  Understand Single-Cell RNA-Seq Technology and Experimental Design
+- Preprocess Single-Cell Data
+- Cluster Single Cells
+- Identify Differentially Expressed Genes
+- Infer Cell Trajectories and Pseudotime
+- Visualize Single-Cell Data 
+- Integrate Multi-Modal and Multi-Sample Data
+- Address Single-Cell Data Challenges
+- Build Interactive Data Reports
 
-#### Pre-requisites
+## Pre-requisites
 
 -   Basic familiarity with R
--   Some other knowledge
+-   Basic knowledge of bioinformatics 
 
-# Schedule
-
-::: callout-tip
-## Tabular schedule
-
-It can be useful to include a tabular schedule with links.
-:::
-
-|     Time      |                       Topic                       |    Presenter    |
-|:----------------:|:-----------------------------------:|:----------------:|
-| 9:00 - 10:30  |     [Session 1: Preparation](part_1_prep.qmd)     |  Instructor A   |
-| 10:45 - 12:00 | [Session 2: Exploratory Analysis](part_2_eda.qmd) | Instructor B, C |
+## Schedule
+|Day | Date | Session Title | Time | Instructor| 
+|:---:|:----:|:--------------:|:-------:|:------:|
+|Day 1|November 16, 2023|	Fundamentals of R: Part 1| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 2|November 18, 2023|	Fundamentals of R: Part 2| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 3|November 20, 2023|	The Tidyverse Ecosystem: Part 1| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 4|November 22, 2023|The Tidyverse Ecosystem: Part 2| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 5|November 24, 2023|Preparing scRNA-Seq Data| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 6|November 26, 2023|Uncovering Dataset Structure| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 7|November 28, 2023|scRNA-Seq Biological Interpretation| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
+|Day 8|November 29, 2023|Differential Expression Analysis| 9:00  - 10:30 PM|[Md. Jubayer Hossain](https://hossainlab.github.io/)|
